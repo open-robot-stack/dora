@@ -167,7 +167,7 @@ parquet = { version = "59" }
 # Kept in lockstep with `arrow-pyarrow` — see the `arrow` floor above.
 pyo3 = { version = "0.29", features = [
     "eyre",
-    "abi3-py311",
+    "abi3-py310",
     "multiple-pymethods",
 ] }
 pythonize = "0.29"
